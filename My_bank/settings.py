@@ -34,7 +34,7 @@ SECRET_KEY = env("SECRET_KEY")
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
-CSRF_TRUSTED_ORIGINS = ['https://my-bank-cqxj.onrender.com']
+CSRF_TRUSTED_ORIGINS = ['https://my-bank-cqxj.onrender.com','https://*.127.0.0.1']
 
 # Application definition
 
