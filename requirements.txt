@@ -114,8 +114,8 @@ pyproject_hooks
 pytest
 python-dateutil
 python-json-logger
-pywin32
-pywin32-ctypes
+# pywin32
+# pywin32-ctypes
 pywinpty
 PyYAML
 pyzmq
