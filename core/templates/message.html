@@ -1,0 +1,16 @@
+
+
+{%for message in messages %}
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        Swal.fire({
+            icon: "{{message.tags}}",
+            title: "sratus",
+            text: "{{message}}",
+            confirmButtonText:'ok'
+        });
+    });
+    </script>
+    
+{%endfor%}
